@@ -9,5 +9,5 @@ jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello from Main Branch
+      - name: Hello from Develop Branch
         run: echo "Hello, triggered from develop branch!"
