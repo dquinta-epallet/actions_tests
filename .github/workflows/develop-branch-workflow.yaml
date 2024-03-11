@@ -3,11 +3,11 @@ name: Develop Branch Action
 on:
   push:
     branches:
-      - main
+      - develop
 
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
       - name: Hello from Main Branch
-        run: echo "Hello, triggered from main branch!"
+        run: echo "Hello, triggered from develop branch!"
